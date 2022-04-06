@@ -84,7 +84,7 @@ const checkForWinner = function () {
 
 const rollDice = function () {
   currentDice = Math.floor(Math.random() * 6) + 1;
-  dice.setAttribute("src", `dice-${currentDice}.png`);
+  dice.setAttribute("src", `dice-${currentDice}.svg`);
   checkCurrentDice();
   updateScoreUI();
 };
